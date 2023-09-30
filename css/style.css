@@ -118,7 +118,7 @@ nav:focus, nav:hover {
   display: relative;
   top: -40px;
   left: 0;
-  opacity: 0;
+  opacity: 0; /* Chat GPT */
 }
 
 /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
@@ -127,7 +127,7 @@ nav:focus, nav:hover {
   display: relative;
   top: 20px;
   left: 0;
-  opacity: 1;
+  opacity: 1; /* Chat GPT */
 }
 
 /* Step 3: Write selector/rule property to style all elements when in focus*/
@@ -160,7 +160,7 @@ first div in the grid  and place it in the grid. */
 
       /*This will be a lot of rules.... but be strategic and combine seletors*/
   
-.about {
+.about { /* Made one with Chat GPT */
   grid-column: 2 / span 1;
   grid-row: 2 / span 1;
 }
@@ -180,7 +180,7 @@ first div in the grid  and place it in the grid. */
   grid-row: 5 / span 1;
 }
 
-.about-image {
+.about-image { /* Made one with Chat GPT */
   grid-column: 1 / span 3;
   grid-row: 2 / span 1;
   max-height: 600px;
